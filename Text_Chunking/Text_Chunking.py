@@ -1,6 +1,9 @@
 import pandas as pd
 import os
+import sys
+import io
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 EXCEL_FILE = "D:\\Python\\02_NTUT_Course\\Advanced_Database_System\\Final_Project_RAGsystem\\Text_Chunking\\chunks.xlsx"
 
 COLUMNS = [
