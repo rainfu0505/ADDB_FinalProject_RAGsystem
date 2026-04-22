@@ -1,3 +1,4 @@
+#.gitignore以下檔案
 venv/
 __pycache__
 .vscode/
